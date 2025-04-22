@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+project(QEMU_Launcher)
+
+set(CMAKE_CXX_STANDARD 17)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+add_executable(QEMU_Launcher main.cpp)
+target_link_libraries(QEMU_Launcher Qt5::Widgets)

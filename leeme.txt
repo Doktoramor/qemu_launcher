@@ -1,0 +1,17 @@
+# QEMU Launcher en Qt
+
+Una interfaz gráfica sencilla desarrollada en Qt para lanzar máquinas virtuales usando QEMU/KVM. Esta herramienta permite seleccionar imágenes ISO, asignar memoria, núcleos de CPU, y activar o desactivar red de manera rápida.
+
+## 📦 Requisitos
+
+Antes de compilar o ejecutar este programa, asegúrate de tener instalados los siguientes componentes:
+
+### Dependencias:
+- **Qt5 o Qt6** (con módulos `Widgets`, `Core`, `Gui`)
+- **QEMU** (especialmente `qemu-system` o `qemu-kvm`)
+- **G++ o Clang** con soporte para C++17 o superior
+- **CMake** (opcional, si prefieres usarlo en lugar de `qmake`)
+
+En sistemas basados en Debian/Ubuntu:
+```bash
+sudo apt install qtbase5-dev qemu-kvm build-essential

@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=QEMU Launcher
+Comment=Lanzador gráfico para QEMU/KVM
+Exec=/usr/local/bin/qemu_launcher
+Icon=qemu
+Terminal=false
+Type=Application
+Categories=Utility;Emulator;
+StartupNotify=true
