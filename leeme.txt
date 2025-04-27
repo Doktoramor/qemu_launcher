@@ -15,3 +15,6 @@ Antes de compilar o ejecutar este programa, asegúrate de tener instalados los s
 En sistemas basados en Debian/Ubuntu:
 ```bash
 sudo apt install qtbase5-dev qemu-kvm build-essential
+
+
+doktoramor@proton.me
